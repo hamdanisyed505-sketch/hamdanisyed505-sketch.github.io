@@ -1,49 +1,67 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-
-<title>My Portfolio</title>
-
-<style>
-
-body{
-background:#0f172a;
-color:white;
-font-family:Arial;
-text-align:center;
-padding-top:100px;
-}
-
-h1{
-font-size:50px;
-color:#38bdf8;
-}
-
-p{
-font-size:25px;
-}
-
-button{
-padding:12px 25px;
-background:#38bdf8;
-border:none;
-border-radius:10px;
-color:white;
-font-size:20px;
-}
-
-</style>
-
+    <title>Hamdani | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 { color: #333; }
+        .project {
+            border-left: 4px solid #0077ff;
+            padding-left: 15px;
+            margin: 15px 0;
+        }
+        .contact a {
+            display: inline-block;
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0077ff;
+        }
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+        }
+    </style>
 </head>
-
 <body>
+    <div class="card">
+        <h1>👋 I'm Hamdani</h1>
+        <p>Student | Developer | Creative</p>
+        <p>Welcome to my mobile-built portfolio.</p>
+    </div>
 
-<h1>Hamdani Syed</h1>
+    <div class="card">
+        <h2>📁 Projects</h2>
+        <div class="project">
+            <strong>Exam Assignment Page</strong><br>
+            Built a responsive form page for my exam.
+        </div>
+        <div class="project">
+            <strong>GitHub Portfolio</strong><br>
+            Created this site entirely from my phone.
+        </div>
+    </div>
 
-<p>Frontend Developer</p>
-
-<button>My Projects</button>
-
+    <div class="card">
+        <h2>📫 Contact</h2>
+        <div class="contact">
+            <a href="#">GitHub</a>
+            <a href="#">Email</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <p>✨ Open to opportunities</p>
+    </div>
 </body>
 </html>
